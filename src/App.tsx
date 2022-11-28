@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
+import img from '../src/assets/card-images/exit1.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
+        <h2>לְהִסְתַּלֵּק</h2>
+        <img src={img} className="App-logo" alt="logo" />
+        <h3>אבי הסתלק מאיתנו לפני שלוש שנים.</h3>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
